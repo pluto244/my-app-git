@@ -11,7 +11,7 @@ let mapStateToProps = (state) => {
 }
 
 let mapDispatchToProps = (dispatch) => {
-  debugger
+
   return {
     
     addMessage: () => {
