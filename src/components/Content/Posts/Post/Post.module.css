@@ -1,0 +1,12 @@
+.item{
+    color: palevioletred;
+}
+.item img{
+    width: 40px;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.likes{
+    color: rgb(0, 252, 218);
+}
