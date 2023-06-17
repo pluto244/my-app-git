@@ -6,7 +6,6 @@ import DialogsContainer from './components/Dialogs/DialogsContainer';
 import Header from './components/Header/Header'
 import Navbar from './components/Navbar/Navbar'
 const App = (props) => {
-//ss
   return (
     
     <BrowserRouter>
@@ -16,11 +15,11 @@ const App = (props) => {
         <div className="app-wrapper-content">
           <Routes>
 
-          <Route path="/Dialogs" element ={ <DialogsContainer
-                  store={props.store}
+          <Route path="/Dialogs" element ={ 
+                  <DialogsContainer
                   />} />
-            <Route path='/Profile' element={<Content 
-               
+            <Route path='/Profile' element={
+                  <Content 
                   />} />
 
           </Routes>

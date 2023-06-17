@@ -5,7 +5,7 @@ import UserDialog from "./MessageFromUser/UserDialog"
 
 
 const Dialogs = (props) => {
-
+  debugger
 
 
   let dialogsElements = props.dialogsPage.dialogsData.map(d => <UserDialog name={d.name} id={d.id} />);
