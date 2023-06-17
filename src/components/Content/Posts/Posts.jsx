@@ -2,6 +2,7 @@ import React from 'react';
 import Post from './Post/Post';
 
 const Posts = (props) => {
+
     let PostFromUser = 
         props.posts.map( p => (<Post message={p.message} likesCount={p.likesCount} />
     ));

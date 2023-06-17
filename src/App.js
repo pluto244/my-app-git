@@ -20,7 +20,7 @@ const App = (props) => {
                   store={props.store}
                   />} />
             <Route path='/Profile' element={<Content 
-                  store={props.store}
+               
                   />} />
 
           </Routes>
