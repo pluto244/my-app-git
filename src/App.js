@@ -1,8 +1,8 @@
-import React from 'react';
-import './App.css';
-import { Routes, BrowserRouter, Route } from 'react-router-dom';
+import React from 'react'
+import './App.css'
+import { Routes, BrowserRouter, Route } from 'react-router-dom'
 import Content from './components/Content/Content'
-import DialogsContainer from './components/Dialogs/DialogsContainer';
+import DialogsContainer from './components/Dialogs/DialogsContainer'
 import Header from './components/Header/Header'
 import Navbar from './components/Navbar/Navbar'
 const App = (props) => {
@@ -26,7 +26,7 @@ const App = (props) => {
         </div>
       </div>
     </BrowserRouter>
-  );
+  )
 }
 
-export default App;
+export default App

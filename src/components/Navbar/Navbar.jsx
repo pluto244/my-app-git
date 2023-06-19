@@ -1,6 +1,6 @@
-import React from 'react';
-import p from './Navbar.module.css';
-import {NavLink} from 'react-router-dom';
+import React from 'react'
+import p from './Navbar.module.css'
+import {NavLink} from 'react-router-dom'
 const Navbar = () => {
     return (
         <nav className={p.nav}>
@@ -23,7 +23,7 @@ const Navbar = () => {
 
 
 
-    );
+    )
 }
 
 export default Navbar

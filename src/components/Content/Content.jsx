@@ -1,5 +1,5 @@
-import React from 'react';
-import PostsContainer from './Posts/PostsConteiner';
+import React from 'react'
+import PostsContainer from './Posts/PostsConteiner'
 const Profile = () => {
 
 
@@ -17,8 +17,8 @@ const Profile = () => {
 
 
 
-    );
+    )
 }
 
 
-export default Profile;
+export default Profile

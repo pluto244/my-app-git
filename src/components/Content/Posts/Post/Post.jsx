@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import post from './Post.module.css'
 
 
@@ -29,4 +29,4 @@ const Post = (props) => {
 }
 
 
-export default Post;
+export default Post

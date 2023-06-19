@@ -1,6 +1,6 @@
-import React from "react";
-import dialog from "./Dialogs.module.css";
-import MessageFromUser from "./MessageFromUser/MessageFromUser";
+import React from "react"
+import dialog from "./Dialogs.module.css"
+import MessageFromUser from "./MessageFromUser/MessageFromUser"
 import UserDialog from "./MessageFromUser/UserDialog"
 
 
@@ -8,13 +8,13 @@ const Dialogs = (props) => {
 
 
 
-  let dialogsElements = props.dialogsPage.dialogsData.map(d => <UserDialog name={d.name} id={d.id} />);
-  let messagesElements = props.dialogsPage.messageData.map(m => <MessageFromUser message={m.message} />);
-  let newMessageBody = React.createRef();
+  let dialogsElements = props.dialogsPage.dialogsData.map(d => <UserDialog name={d.name} id={d.id} />)
+  let messagesElements = props.dialogsPage.messageData.map(m => <MessageFromUser message={m.message} />)
+  let newMessageBody = React.createRef()
 
 
   let onMessageChange = () => {
-    let body = newMessageBody.current.value;
+    let body = newMessageBody.current.value
     props.onMessageEntry(body)
   }
 
@@ -32,7 +32,7 @@ const Dialogs = (props) => {
         <button onClick={props.addMessage}>Send</button>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Dialogs;
+export default Dialogs

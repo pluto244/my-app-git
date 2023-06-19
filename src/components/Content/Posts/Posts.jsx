@@ -1,22 +1,22 @@
-import React from 'react';
-import Post from './Post/Post';
+import React from 'react'
+import Post from './Post/Post'
 
 const Posts = (props) => {
 
     let PostFromUser = 
         props.posts.map( p => (<Post message={p.message} likesCount={p.likesCount} />
-    ));
+    ))
 
-    let newPostElement = React.createRef();
+    let newPostElement = React.createRef()
 
     let onAddPost = () => {
-        props.addPost();
-    };
+        props.addPost()
+    }
 
     let onPostChange = () => {
-        let newText = newPostElement.current.value;
+        let newText = newPostElement.current.value
         props.updateNewPostText(newText)
-    };
+    }
 
     return (
         <div>
@@ -29,7 +29,7 @@ const Posts = (props) => {
             </div>
             <div>{PostFromUser}</div>
         </div>
-    );
-};
+    )
+}
 
-export default Posts;
+export default Posts

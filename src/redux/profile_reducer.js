@@ -19,14 +19,14 @@ export const profileReducer = (state = initialState, action) => {
             id: 7,
             message:state.newPostText,
             likesCount: 0,
-        };
+        }
 
-       state.postData.push(newPost);
-       state.newPostText = '';
+       state.postData.push(newPost)
+       state.newPostText = ''
 
     } else if (action.type === UPDATE_NEW_POST_TEXT) {
 
-       state.newPostText = action.newText;
+       state.newPostText = action.newText
 
     }
 

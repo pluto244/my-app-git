@@ -39,9 +39,9 @@
 
 
 //     subscribe(observer) {
-//         this.renderEntireTree = observer;
+//         this.renderEntireTree = observer
 //     },
-// };
+// }
 
 
 
@@ -50,5 +50,5 @@
 
 
 
-// export default store;
-// window.store = store;
+// export default store
+// window.store = store
