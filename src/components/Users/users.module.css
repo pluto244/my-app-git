@@ -1,0 +1,20 @@
+
+.userImage img{ 
+    width: 40px;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.userBlock{
+    grid-area: a b;
+}
+
+
+.buttonImageBlock{
+    grid-area: a;
+}
+
+.nameStatuseBlock{
+    grid-area: b;
+}
+
