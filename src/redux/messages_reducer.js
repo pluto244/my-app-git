@@ -20,29 +20,36 @@ let initialState = {
 }
 
 const messagesReducer = (state = initialState, action) => {
+    switch (action.type) {
+        case UPDATE_NEW_MESSAGE_BODY: {
+
+            return {
+                ...state,
+                newMessageBody: action.body,
+            }
+        }
+        case SEND_NEW_MESSAGE: {
+            let body = state.newMessageBody
+
+            return {
+                ...state,
+                newMessageBody: '',
+                messageData: [...state.messageData, { id: 6, message: body, }]
+
+            }
 
 
-    if (action.type === UPDATE_NEW_MESSAGE_BODY) {
-
-        state.newMessageBody = action.body
-
-    } else if (action.type === SEND_NEW_MESSAGE) {
-
-        let body = state.newMessageBody
-        state.messageData.push({ id: 6, message: body, })
-        state.newMessageBody = ''
+        }
+        default: return state
     }
-
-
-    return state
 }
 
 
-export let addMessageCreator = () => ({type: SEND_NEW_MESSAGE,})
+export let addMessageCreator = () => ({ type: SEND_NEW_MESSAGE, })
 
-export let updateNewMessageCreator = (newText) => ({    
-        type: UPDATE_NEW_MESSAGE_BODY,
-        body: newText,
+export let updateNewMessageCreator = (newText) => ({
+    type: UPDATE_NEW_MESSAGE_BODY,
+    body: newText,
 })
 
 
