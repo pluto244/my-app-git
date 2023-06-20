@@ -4,11 +4,11 @@ const UNFOLLOW = "UNFOLLOW"
 const SET_USERS = "SET-USERS"
 let initialState = {
     users: [
-        { usserId: 1, name: "Pasha", statusMessage: "I`here", followStatus: true, location: { state: "Monaho", country: "Russia", }, },
-        { usserId: 2, name: "Dima", statusMessage: "I`here", followStatus: true, location: { state: "Monaho", country: "Russia", }, },
-        { usserId: 3, name: "Anton", statusMessage: "I`here", followStatus: false, location: { state: "Monaho", country: "Russia", }, },
-        { usserId: 4, name: "Egor", statusMessage: "I`here", followStatus: true, location: { state: "Monaho", country: "Russia", }, },
-        { usserId: 5, name: "Kate", statusMessage: "I`here", followStatus: true, location: { state: "Monaho", country: "Russia", }, },
+        { usserId: 1, photoUrl: "https://yt3.googleusercontent.com/ytc/AGIKgqN-0Qa5opWkbBFXXMYQXWiNinAE8DCY5y4CZkF6=s900-c-k-c0x00ffffff-no-rj", name: "Pasha", statusMessage: "I`here", followStatus: true, location: { state: "Monaho", country: "Russia", }, },
+        { usserId: 2, photoUrl: "https://yt3.googleusercontent.com/ytc/AGIKgqN-0Qa5opWkbBFXXMYQXWiNinAE8DCY5y4CZkF6=s900-c-k-c0x00ffffff-no-rj", name: "Dima", statusMessage: "I`here", followStatus: true, location: { state: "Monaho", country: "Russia", }, },
+        { usserId: 3, photoUrl: "https://yt3.googleusercontent.com/ytc/AGIKgqN-0Qa5opWkbBFXXMYQXWiNinAE8DCY5y4CZkF6=s900-c-k-c0x00ffffff-no-rj", name: "Anton", statusMessage: "I`here", followStatus: false, location: { state: "Monaho", country: "Russia", }, },
+        { usserId: 4, photoUrl: "https://yt3.googleusercontent.com/ytc/AGIKgqN-0Qa5opWkbBFXXMYQXWiNinAE8DCY5y4CZkF6=s900-c-k-c0x00ffffff-no-rj", name: "Egor", statusMessage: "I`here", followStatus: true, location: { state: "Monaho", country: "Russia", }, },
+        { usserId: 5, photoUrl: "https://yt3.googleusercontent.com/ytc/AGIKgqN-0Qa5opWkbBFXXMYQXWiNinAE8DCY5y4CZkF6=s900-c-k-c0x00ffffff-no-rj", name: "Kate", statusMessage: "I`here", followStatus: true, location: { state: "Monaho", country: "Russia", }, },
     ],
 }
 
