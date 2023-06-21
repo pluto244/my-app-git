@@ -10,6 +10,7 @@ const Users = (props) => {
                 <img src={u.photoUrl} alt="" />
             </div>
             <div>
+                
                 {u.followStatus}
                 
             </div>
